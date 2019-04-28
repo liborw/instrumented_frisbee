@@ -54,7 +54,7 @@ class SensorTag(object):
                 print(c.value)
 
 
-name = console.input_alert('Start measurement')
+name = console.input_alert('Start measurement', input='test')
 filename = name + '.csv'
 
 tag = SensorTag()
@@ -69,7 +69,7 @@ cb.reset()
 data = np.array(tag.buffer)
 n = data.shape[0]
 t = np.array([x*10 for x in range(n)])*0.001
-accel = data[:,0:3]/4096
+accel = data[:,0:3]/2048
 gyro  = data[:,4:7]/16.4
 temp  = data[:,3]/340 + 36.53
 

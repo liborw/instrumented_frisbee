@@ -10,21 +10,29 @@ date: 2019-04-28
 
 This repository contains notes, protocols and dataset for the instrumented frisbee.
 
-## Hardware
+## Hardware
 
 The sensor is cheap chinese board based on NRF51820 with MPU6050 6-dof IMU, powered by coin cell battery weighting g. It was programed to send Accelerometer and Gyroscope data over BLE.
 
-## Aquisition
+ - Sensor board
+    - Weight: g
+ - NRF51820
+    - Range: (experimental)
+ - MPU6050
+   - Accelerometer rager: ±16 g
+   - Gyroscope range: ±2000 °/s
 
-The 
-
-## Dataset
+## Aquisition
 
 
 
+## Dataset
 
-## Notes
 
-## References
+
+
+## Notes
+
+## References
 
  - [Flight Dynamics Measurements on an Instrumented Frisbee](https://www.lpl.arizona.edu/~rlorenz/frisbee/MSTfrisbee.pdf)

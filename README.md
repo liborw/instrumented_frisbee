@@ -4,8 +4,7 @@ author: Libor Wagner
 date: 2019-04-28
 ---
 
-
-![spin_on_floor][fig/spin_on_floor.png]
+![spin_on_floor](fig/spin_on_floor.png)
 
 # Instrumented Frisbee
 

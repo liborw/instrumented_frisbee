@@ -36,3 +36,4 @@ The sensor is cheap chinese board based on NRF51820 with MPU6050 6-dof IMU, powe
 ## References
 
  - [Flight Dynamics Measurements on an Instrumented Frisbee](https://www.lpl.arizona.edu/~rlorenz/frisbee/MSTfrisbee.pdf)
+ - [Physic of Frisbee](http://scripts.mit.edu/~womens-ult/frisbee_physics.pdf)
